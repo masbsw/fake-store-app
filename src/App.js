@@ -7,7 +7,7 @@ import './index.css';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/fake-store-app">
       <Routes>
         <Route path="/" element={<ProductsPage />} />
         <Route path="/products" element={<ProductsPage />} />
